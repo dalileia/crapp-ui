@@ -1,0 +1,35 @@
+{
+  "project_name" : "Project",
+
+  "lang" : "pt-br",
+
+  "meta" : [],
+
+  "link" : [
+    "<script type=\"text/javascript\" src=\"js/tinycolor-min.js\"></script>",
+
+    "<script src=\"js/FileSaver.js\"></script>",
+    "<script src=\"js/qrcode.min.js\"></script>",
+    "<script src=\"js/pako.min.js\"></script>",
+    "<script src=\"js/chart.min.js\"></script>",
+    "<script src=\"socketio/socket.io.js\"></script>"
+  ],
+
+  "d_flags" : [],
+
+  "dependencies" : [
+    "datetime",
+    "actuate",
+    "anonstruct",
+    "util-kit",
+    "priori-fontawesome"
+  ],
+
+  "template" : "crapp-ui/template",
+
+  "main" : "",
+
+  "src" : [],
+
+  "output" : ""
+}

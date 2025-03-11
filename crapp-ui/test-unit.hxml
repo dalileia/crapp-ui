@@ -1,0 +1,19 @@
+
+-lib util-kit
+-lib anonstruct
+-lib utest
+-lib datetime
+-lib priori
+
+-cp src-test
+-cp src-front
+-cp src-lib
+
+-D hscriptPos
+
+# --c-arg --release
+# --c-arg 8
+
+-main test.unit.UnitTests
+
+-neko ./build/test/unit/UnitTests.n

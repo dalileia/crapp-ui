@@ -1,0 +1,18 @@
+
+-lib jQueryExtern
+-lib priori
+-lib datetime
+-lib actuate
+-lib anonstruct
+-lib util-kit
+-lib priori-fontawesome
+
+-cp example/src
+-cp src-lib
+
+-D version=DEV_VERSION
+-D prioridebug
+
+-main front.Front
+
+-js ./build/front/js/priori.js
